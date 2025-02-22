@@ -1,23 +1,45 @@
-## Simple Voice Chat - A working voice chat in Minecraft!
+## Helpful features for Hypixel Skyblock
 
 ### Features
-    Push to talk
-    Voice activation
-    Proximity voice chat
-    Password protected group chats
-    Opus codec
-    RNNoise recurrent neural network noise suppression
-    OpenAL audio
-    Cross compatibility between Fabric, NeoForge, Forge, Quilt, Bukkit, Spigot and Paper
-    Support for Velocity, BungeeCord and Waterfall
-    Compatibility with ModMenu (Use ClothConfig for a better configuration UI)
-    Configurable push to talk key
-    Microphone test playback
-    Configurable voice distance
-    Whispering
-    Individual player volume adjustment
-    Microphone amplification
-    3D sound
-    AES encryption
-    Audio recording with separate audio tracks
-    A powerful API
+- Config
+- Use /sbm config or /sbm options to open the config screen.
+
+- Chat
+- /ca -> /chat all
+- /cp -> /chat party
+- /cg -> /chat guild
+- /co -> /chat officer
+- /cc -> /chat coop
+- Dungeon
+- Configurable dungeon map
+- /sbm dungeonMap: show current state (on or off)
+- /sbm dungeonMap [true|false]: turn dungeon map on or off
+- /sbm dungeonMap scale: show current scale
+- /sbm dungeonMap scale [scale]
+- /sbm dungeonMap offset: show current offset
+- /sbm dungeonMap offset [offsetX] [offsetY]
+- Dungeon Score
+- send 270 and 300 score in chat
+- /sbm dungeonScore 270|300: show current state (on or off)
+- /sbm dungeonScore 270|300 [true|false]: turn dungeon score on or off
+- /sbm dungeonScore 270|300 message [message]
+- Ex: /sbm dungeonScore 300 message 300 score reached!
+- Livid color
+- send livid color in chat
+- /sbm lividColor: show current state (on or off)
+- /sbm lividColor [true|false]: turn livid color on or off
+- /sbm lividColor [message before] "[color]" [message after]
+- Ex: /sbm lividColor [color] is sus
+- Diana / Mythological Ritual
+- Highlights nearby griffin burrows when holding an Ancestral Spade
+- Experiments
+- Solvers for Enchanting Experiments
+- /sbm experiment [chronomatron|ultrasequencer|superpairs]: show current state (on or off)
+- /sbm experiment [chronomatron|ultrasequencer|superpairs] [true|false]: turn experiment solvers on or off
+- Fishing
+- Notifies you to reel in
+ -(Only works when nothing is in the water in the line through the player and the bobber*)
+- /sbm fishingHelper: show current state (on or off)
+- /sbm fishingHelper [true|false]: turn fishing helper on or off
+- Help
+-/sbm help: show all skyblock mod commands
